@@ -100,8 +100,9 @@ const Footer = () => {
                 size="default"
                 className="px-4 py-2 text-xs font-medium text-white transition-opacity rounded-md md:px-6 md:py-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-gradient-rotate sm:text-sm md:text-base hover:opacity-90"
                 onClick={() =>
-                  window.open("https://discord.gg/W3ukzkXe2y", "_blank")
+                  window.open("https://discord.gg/htrNgSgY", "_blank")
                 }
+                data-umami-event="Join Discord"
               >
                 Join Discord
               </Button>
@@ -112,6 +113,7 @@ const Footer = () => {
                 onClick={() =>
                   (window.location.href = "https://app.logofork.com")
                 }
+                data-umami-event="Launch App"
               >
                 Launch App
               </Button>
@@ -128,6 +130,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-all cursor-pointer hover:opacity-80"
+                data-umami-event="Visit Unzet"
               >
                 Unzet
               </a>{" "}
@@ -137,6 +140,7 @@ const Footer = () => {
               <a
                 href="mailto:logofork@unzet.com"
                 className="transition-all cursor-pointer hover:opacity-80"
+                data-umami-event="Contact Email Click"
               >
                 logofork@unzet.com
               </a>

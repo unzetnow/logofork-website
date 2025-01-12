@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
 
@@ -74,11 +75,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <Script
+          src="https://data.unzet.com/script.js"
+          data-website-id="91ddefe0-4137-4f82-94ac-2cde39d19f3d"
+          defer
+        />
+      </head>
       <body className={`${dmSans.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
           enableSystem={false}
+          forcedTheme="light"
           disableTransitionOnChange
         >
           {children}

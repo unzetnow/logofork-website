@@ -6,7 +6,7 @@ const Feature = () => {
       <div className="px-6 mx-auto md:px-40 container-none">
         <div className="flex flex-col justify-center max-w-screen-md gap-3 mx-auto md:text-center">
           <h2 className="text-2xl md:text-4xl text-zinc-800">
-            It’s Never Been Faster
+            Never Been Faster
           </h2>
           <p className="max-w-screen-sm mx-auto text-sm text-muted-foreground md:text-base text-zinc-600">
             Focus on creating amazing designs, and let Logofork handle the final

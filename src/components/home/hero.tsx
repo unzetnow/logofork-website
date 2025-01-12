@@ -23,12 +23,11 @@ const Hero = () => {
               </span>
             </div>
             <h1 className="max-w-screen-lg mx-auto text-3xl font-medium text-center text-zinc-800 sm:text-3xl md:text-5xl lg:text-6xl text-balance">
-              Export Your Branding Projects In Style
+              Export Your Branding Projects With Ease
             </h1>
             <p className="max-w-screen-sm px-4 mx-auto text-sm text-center text-zinc-600 text-muted-foreground sm:text-base md:text-lg">
-              Seamlessly drag & drop, paste, or upload your SVG logos and
-              instantly get every file format you or your clients need -
-              delivered in seconds!
+              Drag & drop, paste, or upload your SVG logos and convert them to
+              every file format you need - delivered in seconds!
             </p>
             <div className="flex-col items-center justify-center hidden gap-3 pt-3 pb-8 lg:flex md:pb-8">
               <Button
@@ -37,6 +36,7 @@ const Hero = () => {
                 onClick={() =>
                   (window.location.href = "https://app.logofork.com")
                 }
+                data-umami-event="Hero Export Package Click"
               >
                 Export Your Package{" "}
                 <Group className="ml-0.5 size-3 sm:size-3.5 md:size-4" />
