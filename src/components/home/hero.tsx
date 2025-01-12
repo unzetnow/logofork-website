@@ -46,7 +46,7 @@ const Hero = () => {
 
           <div className="relative px-3 mx-auto mt-6 max-w-screen-2xl md:mt-10">
             <Image
-              src="https://framerusercontent.com/images/7tIwNiB71gDej8H14hoELkryog.png?scale-down-to=2048"
+              src="https://framerusercontent.com/images/1wtoc4lqo3tq8PUE6iAJg4MAW0.png?scale-down-to=2048"
               alt="Logofork Preview"
               width={1920}
               height={1080}

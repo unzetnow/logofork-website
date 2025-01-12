@@ -10,8 +10,8 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "LogoFork - Export Your Branding Projects In Style",
-    template: "%s | LogoFork",
+    default: "Logofork - Export Your Branding Projects In Style",
+    template: "%s | Logofork",
   },
   description:
     "Seamlessly drag & drop, paste, or upload your SVG logos and instantly get every file format you or your clients need - delivered in seconds!",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "design tools",
     "branding exports",
   ],
-  authors: [{ name: "LogoFork" }],
+  authors: [{ name: "Logofork" }],
   creator: "Logofork",
   publisher: "Logofork",
   robots: {
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "LogoFork - Export Your Branding Projects In Style",
+    title: "Logofork - Export Your Branding Projects In Style",
     description:
       "Convert and export your logos to any format instantly. The fastest way to get your brand assets in every format you need.",
     creator: "@logofork",
