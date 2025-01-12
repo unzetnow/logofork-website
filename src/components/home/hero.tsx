@@ -36,7 +36,7 @@ const Hero = () => {
                 onClick={() =>
                   (window.location.href = "https://app.logofork.com")
                 }
-                data-umami-event="Hero Export Package Click"
+                data-umami-event="Hero Export Logos Click"
               >
                 Export Your Logos{" "}
                 <Group className="ml-0.5 size-3 sm:size-3.5 md:size-4" />
