@@ -1,17 +1,17 @@
-import Footer from "@/components/home/footer";
 import Navbar from "@/components/home/navbar";
-import Welcome from "@/components/home/welcome";
+import Hero from "@/components/home/hero";
+import Features from "@/components/home/features";
+import Footer from "@/components/home/footer";
 
 export default function Home() {
   return (
     <section
       id="homepage"
-      className="flex flex-col min-h-screen bg-white dark:bg-zinc-950 selection:bg-black selection:text-white"
+      className="dark:bg-zinc-950 selection:bg-black selection:text-white"
     >
       <Navbar />
-      <div className="flex items-center justify-center flex-grow">
-        <Welcome />
-      </div>
+      <Hero />
+      <Features />
       <Footer />
     </section>
   );

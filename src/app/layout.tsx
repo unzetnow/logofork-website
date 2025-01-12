@@ -10,18 +10,25 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Create Unzet App",
-    template: "%s | Create Unzet App",
+    default: "LogoFork - Export Your Branding Projects In Style",
+    template: "%s | LogoFork",
   },
   description:
-    "Create Unzet App makes building your website or app a breeze. With React, Next.js, ShadCN, and TailwindCSS baked in, it’s all about shipping faster.",
-  /* SEO Basics
-  metadataBase: new URL("https://example.com"),
-  keywords: ["keyword1", "keyword2", "keyword3"],
-  authors: [{ name: "Your Name" }],
-  creator: "Your Name/Company",
-  publisher: "Your Name/Company",
-
+    "Seamlessly drag & drop, paste, or upload your SVG logos and instantly get every file format you or your clients need - delivered in seconds!",
+  metadataBase: new URL("https://logofork.com"),
+  keywords: [
+    "logo converter",
+    "SVG conversion",
+    "logo export",
+    "brand assets",
+    "file format converter",
+    "logo transformation",
+    "design tools",
+    "branding exports",
+  ],
+  authors: [{ name: "LogoFork" }],
+  creator: "Logofork",
+  publisher: "Logofork",
   robots: {
     index: true,
     follow: true,
@@ -36,27 +43,28 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://example.com",
-    title: "Your Site Name",
-    description: "Your site description goes here",
-    siteName: "Your Site Name",
+    url: "https://logofork.com",
+    title: "Logofork - Export Your Branding Projects In Style",
+    description:
+      "Seamlessly convert and export your logos to any format. Fast, easy, and professional-grade exports for all your branding needs.",
+    siteName: "Logofork",
     images: [
       {
-        url: "https://example.com/og-image.jpg",
+        url: "https://logofork.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Site preview image",
+        alt: "Logofork - Professional Logo Format Converter",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Site Name",
-    description: "Your site description goes here",
-    creator: "@yourhandle",
-    images: ["https://example.com/og-image.jpg"],
+    title: "LogoFork - Export Your Branding Projects In Style",
+    description:
+      "Convert and export your logos to any format instantly. The fastest way to get your brand assets in every format you need.",
+    creator: "@logofork",
+    images: ["https://logofork.com/og-image.jpg"],
   },
-  */
 };
 
 export default function RootLayout({
@@ -69,8 +77,8 @@ export default function RootLayout({
       <body className={`${dmSans.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="light"
+          enableSystem={false}
           disableTransitionOnChange
         >
           {children}
