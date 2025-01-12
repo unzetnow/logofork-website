@@ -38,7 +38,7 @@ const Hero = () => {
                 }
                 data-umami-event="Hero Export Package Click"
               >
-                Export Your Package{" "}
+                Export Your Logos{" "}
                 <Group className="ml-0.5 size-3 sm:size-3.5 md:size-4" />
               </Button>
             </div>
