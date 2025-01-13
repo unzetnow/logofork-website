@@ -27,7 +27,7 @@ const Hero = () => {
             </h1>
             <p className="max-w-screen-sm px-4 mx-auto text-sm text-center text-zinc-600 text-muted-foreground sm:text-base md:text-lg">
               Drag & drop, paste, or upload your SVG logos and convert them to
-              every file format you need - delivered in seconds!
+              the file formats you need - packaged in seconds!
             </p>
             <div className="flex-col items-center justify-center hidden gap-3 pt-3 pb-8 lg:flex md:pb-8">
               <Button

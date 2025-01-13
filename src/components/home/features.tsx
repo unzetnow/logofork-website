@@ -9,8 +9,8 @@ const Feature = () => {
             Never Been Faster
           </h2>
           <p className="max-w-screen-sm mx-auto text-sm text-muted-foreground md:text-base text-zinc-600">
-            Focus on creating amazing designs, and let Logofork handle the final
-            export. Package your logos in seconds, not hours!
+            Focus on creating amazing designs, and leave the export part on
+            Logofork. Package your logos in seconds, not hours!
           </p>
         </div>
         <div className="flex flex-col max-w-screen-lg mx-auto mt-4 lg:mt-12 lg:px-16">

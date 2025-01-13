@@ -89,11 +89,11 @@ const Footer = () => {
           </svg>
           <div className="relative max-w-screen-sm mx-auto mb-6">
             <h1 className="mb-4 -mt-8 text-3xl font-normal text-balance md:text-4xl text-zinc-800">
-              Be Part Of Logofork
+              Be A Part Of Logofork
             </h1>
             <p className="text-muted-foreground md:text-lg text-zinc-600">
-              Export your logos and share your feedback with us. Let us know how
-              we can improve and help shape the path forward.
+              Use the app, export packages and share your feedback. Let us know
+              how we can improve and help us shape the path forward.
             </p>
             <div className="flex flex-row justify-center gap-3 mt-6 sm:flex-row">
               <Button
