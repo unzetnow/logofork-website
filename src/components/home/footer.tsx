@@ -121,7 +121,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <footer className="relative z-10 w-full mb-8 -mt-8 lg:mb-0">
+      <footer className="relative z-10 w-full mb-8 -mt-7 lg:mb-0">
         <div className="px-4 mx-auto -mb-2 container-none sm:px-6">
           <div className="flex flex-col items-center justify-between gap-1 text-sm sm:text-md md:flex-row">
             <div>
