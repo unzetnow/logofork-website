@@ -65,6 +65,7 @@ const Floating = () => {
     };
   }, [isHovered, isFirstLoad]);
 
+  /* eslint-disable react-hooks/exhaustive-deps */
   const startRandomMessages = useCallback(() => {
     let hideTimer: NodeJS.Timeout;
     let messageInterval: NodeJS.Timeout;
@@ -91,9 +92,9 @@ const Floating = () => {
           if (!isHovered) {
             showRandomMessage();
           }
-        }, 8000);
+        }, 13000);
       }
-    }, 5500);
+    }, 10500);
 
     return () => {
       clearTimeout(messageTimer);
@@ -101,6 +102,7 @@ const Floating = () => {
       clearInterval(messageInterval);
     };
   }, [isHovered]);
+  /* eslint-enable react-hooks/exhaustive-deps */
 
   useEffect(() => {
     let cleanup: (() => void) | undefined;
