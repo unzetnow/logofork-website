@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   return (
-    <section className="py-3 mt-1">
+    <section className="py-3 mt-1 mb-6 lg:mb-0">
       <div className="px-4 mx-auto container-none sm:px-6">
         <nav className="justify-between hidden lg:flex">
           <div className="flex items-center gap-6">

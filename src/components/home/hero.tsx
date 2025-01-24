@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative py-6 pt-8 overflow-hidden lg:pt-4">
+    <section className="relative py-10 md:py-4 pt-8 overflow-hidden lg:pt-4">
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-[25%]  sm:-translate-y-[20%] md:-translate-y-[60%] -z-10 mx-auto size-[500px] sm:size-[700px] md:size-[900px] lg:size-[1300px] rounded-full border p-8 sm:p-14 md:p-16 lg:p-32 [mask-image:linear-gradient(to_top,transparent,transparent,white,white,white,transparent,transparent)]">
         <div className="p-12 border rounded-full sm:p-14 md:p-16 lg:p-32 size-full">
           <div className="border rounded-full size-full"></div>
@@ -46,11 +46,11 @@ const Hero = () => {
 
           <div className="relative px-3 mx-auto mt-6 max-w-screen-2xl md:mt-10">
             <Image
-              src="https://framerusercontent.com/images/1wtoc4lqo3tq8PUE6iAJg4MAW0.png?scale-down-to=2048"
+              src="https://framerusercontent.com/images/TXQOg8sezjMbo52phzfGXT17QxU.png?scale-down-to=2048"
               alt="Logofork Preview"
               width={1920}
               height={1080}
-              className="object-cover w-full h-full -mb-8 rounded-lg md:rounded-xl grayscale"
+              className="object-cover w-full h-full md:-mb-14  -mb-9 rounded-lg md:rounded-xl grayscale"
               priority
             />
             <div className="absolute bottom-0 left-0 right-0 w-full h-16 mt-2 translate-y-20 bg-white border-t lg:translate-y-10 md:flex md:translate-y-10 border-zinc-300"></div>

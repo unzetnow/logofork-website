@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
-    <section className="pt-4">
+    <section className="pt-8 md:pt-4">
       <div className="mx-auto container-none">
         <div className="relative flex items-center justify-center px-8 py-20 overflow-hidden text-center rounded-2xl md:py-32">
           <svg
